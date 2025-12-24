@@ -22,16 +22,14 @@ jobs:
         include:
           - language: csharp
             build-mode: none
-          - language: java
+          - language: java-kotlin
             build-mode: none
           - language: javascript-typescript
-            build-mode: none
-          - language: php
             build-mode: none
           - language: python
             build-mode: none
           - language: go
-            build-mode: none
+            build-mode: autobuild
 
     steps:
       - name: Checkout repository
