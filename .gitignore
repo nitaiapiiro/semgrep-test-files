@@ -1,0 +1,36 @@
+# Ignore all language directories except: dotnet, java, javascript, php, python, typescript, go
+
+# Directories to ignore
+/ai/
+/apex/
+/bash/
+/c/
+/clojure/
+/dockerfile/
+/elixir/
+/generic/
+/html/
+/json/
+/kotlin/
+/libsonnet/
+/ocaml/
+/ruby/
+/rust/
+/scala/
+/scripts/
+/solidity/
+/swift/
+/terraform/
+/trusted_python/
+/yaml/
+
+# Keep these directories (dotnet=csharp, java, javascript, php, python, typescript, go)
+# /csharp/
+# /java/
+# /javascript/
+# /php/
+# /python/
+# /typescript/
+# /go/
+# /problem-based-packs/
+
